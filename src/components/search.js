@@ -27,7 +27,7 @@ function Search() {
             <p>Find me Lyrics of </p>
             <div className="input-container">
                 <input type="text" name="artist" placeholder="Enter Track name" value={track} onChange={e=>{setSearchState(false);setTrack(e.target.value);}}/>
-                <span>Sung by</span>
+                <span>By</span>
                 <input type="text" name="track" placeholder="Enter Artist name" value={artist} onChange={e=>{setSearchState(false);setArtist(e.target.value)}}/>
             </div>
             <button className="search-btn" onClick={()=>search()}>Search</button>
