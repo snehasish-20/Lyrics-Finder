@@ -1,0 +1,29 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(43, 42, 42);
+    position: fixed;
+    top: 0;
+}
+.logo
+{
+    width: 50px;
+    margin-right: 10px;
+}
+.name
+{
+ color: rgb(240, 94, 94);
+ font-weight: 700;
+ font-size: 25px;
+ letter-spacing: 2px;
+}
